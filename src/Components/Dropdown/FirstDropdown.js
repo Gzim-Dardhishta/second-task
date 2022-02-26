@@ -25,8 +25,7 @@ const FirstDropdown = () => {
             font-size: 1.5rem;
         }
         span {
-            position: absolute;
-            right: 190px;
+            margin-right: 30px;
             font-size: 1.5em;
         }
     `;

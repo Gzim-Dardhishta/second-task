@@ -12,6 +12,7 @@ function App() {
 
       <h2>First Dropdown</h2>
       <FirstDropdown />
+      <h2>AboutUs Dropdown</h2>
       <AboutUs />
     </div>
   );

@@ -1,4 +1,5 @@
 import React from 'react'
+// import '../App.css';
 import { useState } from 'react';
 import { Tabs, TabList, Tab, TabPanel } from '@zendeskgarden/react-tabs';
 import Domains from './Domains/Domains';
@@ -17,15 +18,17 @@ function AllTabs() {
   return (
     <div>
         <Tabs selectedItem={selectedTab} onChange={setSelectedTab}>
-            <TabList className='tab-list'>
-                <Tab item='domain'>Domain</Tab>
-                <Tab item='web-hosting'>Web Hosting</Tab>
-                <Tab item='dedicated-servers'>Dedicated Servers</Tab>
-                <Tab item='virtual-cloud'>Virtual Cloud Servers</Tab>
-                <Tab item='wordpress'>WordPress Hosting</Tab>
-                <Tab item='email'>Email hosting</Tab>
-                <Tab item='vps'>VPS Hosting Servers</Tab>
-                <Tab item='free-hosting'>Free Hosting</Tab>
+            <TabList>
+                <div className='tab-list'>
+                    <Tab item='domain'>Domain</Tab>
+                    <Tab item='web-hosting'>Web Hosting</Tab>
+                    <Tab item='dedicated-servers'>Dedicated Servers</Tab>
+                    <Tab item='virtual-cloud'>Virtual Cloud Servers</Tab>
+                    <Tab item='wordpress'>WordPress Hosting</Tab>
+                    <Tab item='email'>Email hosting</Tab>
+                    <Tab item='vps'>VPS Hosting Servers</Tab>
+                    <Tab item='free-hosting'>Free Hosting</Tab>
+                </div>
             </TabList>
 
             <TabPanel item='domain'>
