@@ -1,0 +1,52 @@
+
+.accordian {
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid #d3d3d3d3;
+    border-radius: 10px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon {
+    margin: 10px ;
+    font-size: 3em;
+    color: rgb(65, 68, 245);
+}
+
+.about-text {
+    margin-right: auto;
+}
+
+.about-text h1 {
+    margin-bottom: 5px;
+}
+
+.about span {
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.border {
+    border-bottom: 1px solid #d3d3d3;
+    margin: 5px;
+}
+.answer{
+    margin: 8px;
+}
