@@ -51,15 +51,34 @@
 }
 
 
-@media only screen and (max-width: 768px)  {
+@media only screen and (max-width: 1000px)  {
+    .card-wrapper {
+        width: 100%;
+    }
     .card-info {
-        width: 30%;
+        width: 35%;
     }
 }
 
-@media only screen and (max-width: 1000px)  {
+@media only screen and (max-width: 600px)  {
+
+    .card-wrapper {
+        width: 100%;
+    }
     .card-info {
-        width: 30%;
+        width: 35%;
     }
 }
+
+@media only screen and (max-width: 420px)  {
+
+    .card-wrapper {
+        width: 100%;
+
+    }
+    .card-info {
+        width: 60%;
+    }
+}
+
 
